@@ -16,7 +16,7 @@ Página estática de una tienda de productos del hogar, que permite añadir prod
 
 ![imagen](https://i.ibb.co/DDSM0Jw/2022-05-15-20-46-18-Carrito-de-compras.png)
 
-[Ver demo en vivo.]()
+[Ver demo en vivo.](https://franj1748.github.io/simulador-de-carrito-de-compras/)
 
 El proyecto esta hecho sobre una plantilla, pensado para practicar el lenguaje de programación `JavaScript`. Si en el futuro necesitas crear una solución sobre una página que ya está hecha, este es un buen ejercicio para practicar.  
 
