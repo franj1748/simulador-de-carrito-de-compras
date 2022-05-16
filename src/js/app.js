@@ -1,7 +1,6 @@
 'use strict'
 
 /**
-* @fileoverview Simulación de módulo para agregar productos a un carrito de compras.
 * @version 2.2
 * @author Francisco Elis <https://github.com/franj1748>
 * @copyright AccesoWeb 2022

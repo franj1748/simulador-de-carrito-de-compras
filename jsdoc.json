@@ -19,17 +19,18 @@
         "destination": "./docs",
         "recurse": true,
         "template": "node_modules/clean-jsdoc-theme",
+        "readme": "README.md",
         "theme_opts": {
             "theme": "dark",
             "title": "Carrito de compras",
             "menu": [
                 {
                     "title": "GitHub",
-                    "link": "https://github.com/franj1748",
+                    "link": "https://github.com/franj1748/simulador-de-carrito-de-compras.git",
                     "target": "_blank"
                 }
             ],
-            "footer": "Contáctame: <a href='https://www.linkedin.com/in/francisco-elis-24506b209' target='_blank'><span>LinkedIn</span></a>",
+            "footer": "Creado por Francisco Elis",
             "resizeable": {
                 "navbar": {
                   "min": "300",
