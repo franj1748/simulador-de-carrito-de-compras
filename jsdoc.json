@@ -10,10 +10,6 @@
         "cleverLinks": false,
         "monospaceLinks": false
     },
-    "compilerOptions": {
-        "checkJs": true
-      },
-    "exclude": ["node_modules", "**/node_modules/*"],
     "opts": {
         "encoding": "utf8",
         "destination": "./docs",
