@@ -1,0 +1,46 @@
+
+{
+    "plugins": [],
+    "source": {
+        "include": ["./src"],
+        "includePattern": ".+\\.js(doc|x)?$",
+        "excludePattern": "(node_modules/docs)"
+    },
+    "templates": {
+        "cleverLinks": false,
+        "monospaceLinks": false
+    },
+    "compilerOptions": {
+        "checkJs": true
+      },
+    "exclude": ["node_modules", "**/node_modules/*"],
+    "opts": {
+        "encoding": "utf8",
+        "destination": "./docs",
+        "recurse": true,
+        "template": "node_modules/clean-jsdoc-theme",
+        "theme_opts": {
+            "theme": "dark",
+            "title": "Carrito de compras",
+            "menu": [
+                {
+                    "title": "GitHub",
+                    "link": "https://github.com/franj1748",
+                    "target": "_blank"
+                }
+            ],
+            "footer": "Contáctame: <a href='https://www.linkedin.com/in/francisco-elis-24506b209' target='_blank'><span>LinkedIn</span></a>",
+            "resizeable": {
+                "navbar": {
+                  "min": "300",
+                  "max": "600"
+                }
+            }
+        },
+        "sourceType": "module",
+        "tags": {
+            "allowUnknownTags": false,
+            "dictionaries": ["jsdoc","closure"]
+        }
+    }
+}

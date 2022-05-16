@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <title>Carrito de compras</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="src/css/bootstrap.min.css"/>
+      <!-- style css -->
+      <link rel="stylesheet" href="src/css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="src/css/responsive.css"/>
+      <link rel="stylesheet" href="src/css/normalize.css"/>
+      <link rel="stylesheet" href="src/css/skeleton.css"/>
+      <link rel="stylesheet" href="src/css/custom.css"/>
+      <link rel="stylesheet" href="src/css/prism.css">
+      <!-- favicon -->
+      <link rel="icon" href="assets/images/basekit.png"/>
+   </head>
+   <body class="main-layout">
+      <div class="wrapper">
+         <div id="content">
+            <header>
+               <div class="header">
+                  <div class="container-fluid">
+                     <div class="row">
+                        <div class="col-lg-3 logo_section">
+                           <div class="full">
+                              <div class="center-desk">
+                                 <div class="logo"> <a href="index.html"><img src="assets/images/basekit.png" alt="#"></a> </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-9">
+                           <div class="right_header_info">
+                              <ul>
+                                 <li><a href="#"><img style="margin-right: 15px;" src="assets/icon/usuario.png" alt="#" /></a></li>
+                                 <li class="tytyu" ><a href="#"><img style="margin-right: 15px;" src="assets/icon/deseo.png" alt="#"/></a></li>
+                                 <li class="submenu">
+                                    <a href="#"><img style="margin-right: 15px;" src="assets/icon/carrito.png" alt="#" /></a>
+                                    <div id="carrito">
+                                       <table id="lista-carrito" class="u-full-width">
+                                          <thead>
+                                             <tr>
+                                                <th>Imagen</th>
+                                                <th>Nombre</th>
+                                                <th>Precio</th>
+                                                <th>Cantidad</th>
+                                                <th></th>
+                                             </tr>
+                                         </thead>
+                                         <tbody></tbody>
+                                       </table>
+                                       <a href="#" id="vaciar-carrito" class="button u-full-width" style="color: #000;">Vaciar Carrito</a>
+                                    </div>
+                                 </li>
+                                 <li>
+                                    <button type="button" id="sidebarCollapse">
+                                       <img src="assets/images/menu_icon.png" alt="#" />
+                                    </button>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </header>
+            <div class="contactus">
+               <div class="container-fluid">
+                  <div class="row">
+                     <div class="col-md-8 offset-md-2">
+                        <div class="title">
+                           <h2>Nuestros productos</h2>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div id="productos" class="ourproduct">
+               <div class="container">
+                  <div class="row product_style_3">
+                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="full product">
+                           <div class="product_img">
+                              <div class="center"> 
+                                 <img src="assets/icon/p1.png" alt="#"/>
+                                 <div class="overlay_hover"> 
+                                    <a class="add-bt" href="#" data-id="1">+ Añadir al carrito</a> 
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="product_detail text_align_center">
+                              <p class="product_price">$510.25</p>
+                              <span class="old_price">$708.89</span>
+                              <p class="product_descr">Lampara de bola</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="full product">
+                           <div class="product_img">
+                              <div class="center"> <img src="assets/icon/p2.png" alt="#"/>
+                                 <div class="overlay_hover">
+                                    <a class="add-bt" href="#" data-id="2">+ Añadir al carrito</a>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="product_detail text_align_center">
+                              <p class="product_price">$700.09</p>
+                              <span class="old_price">$780.89</span>
+                              <p class="product_descr">Mantel decorativo</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="full product">
+                           <div class="product_img">
+                              <div class="center"> <img src="assets/icon/p3.png" alt="#"/>
+                                 <div class="overlay_hover"> 
+                                    <a class="add-bt" href="#" data-id="3">+ Añadir al carrito</a> 
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="product_detail text_align_center">
+                              <p class="product_price">$679.89</p>
+                              <span class="old_price">$852.89</span>
+                              <p class="product_descr">Silla en madera añejada</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="full product">
+                           <div class="product_img">
+                              <div class="center"> <img src="assets/icon/p4.png" alt="#"/>
+                                 <div class="overlay_hover"> 
+                                    <a class="add-bt" href="#" data-id="4">+ Añadir al carrito</a> 
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="product_detail text_align_center">
+                              <p class="product_price">$778.55</p>
+                              <span class="old_price">$755.89</span>
+                              <p class="product_descr">Velador en madera</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="full product">
+                           <div class="product_img">
+                              <div class="center"> <img src="assets/icon/blog.jpg" alt="#"/>
+                                 <div class="overlay_hover"> 
+                                    <a class="add-bt" href="#" data-id="5">+ Añadir al carrito</a> 
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="product_detail text_align_center">
+                              <p class="product_price">$752.69</p>
+                              <span class="old_price">$965.89</span>
+                              <p class="product_descr">Escritorio en acabado</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="full product">
+                           <div class="product_img">
+                              <div class="center"> <img src="assets/icon/blol.jpg" alt="#"/>
+                                 <div class="overlay_hover"> 
+                                    <a class="add-bt" href="#" data-id="6">+ Añadir al carrito</a> 
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="product_detail text_align_center">
+                              <p class="product_price">$584.65</p>
+                              <span class="old_price">$690.89</span>
+                              <p class="product_descr">Escritorio en mármol</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <footer>
+         <div class="footer">
+            <div class="container-fluid">
+               <div class="border1">
+                  <div class="row">
+                     <img class="logo1" src="assets/images/basekit.png"/>
+                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <ul class="lik">
+                           <li> <a href="#">Inicio</a></li>
+                           <li> <a href="#">Acerca de</a></li>
+                           <li> <a href="#">Productos</a></li>
+                           <li> <a href="#">Blog</a></li>
+                           <li> <a href="#">Contáctanos</a></li>
+                        </ul>
+                     </div>
+                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                        <ul class="sociel">
+                           <li> <a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                           <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
+                           <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
+                           <li> <a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                     </div>
+                  </div>  
+               </div>
+            </div>
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="new">
+                        <h3>Suscribete</h3>
+                        <form class="newtetter">
+                           <input class="tetter" placeholder="Tu correo" type="text" name="correo">
+                           <button class="submit">Subscribir</button>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="copyright">
+               <p>Copyright 2022 All Right Reserved por <a href="https://www.linkedin.com/in/francisco-elis-24506b209">Francisco Elis</a></p>
+            </div>
+         </div>
+      </footer>
+      <script src="src/js/jquery.min.js"></script> 
+      <script src="src/js/popper.min.js"></script> 
+      <script src="src/js/bootstrap.bundle.min.js"></script> 
+      <script src="src/js/jquery-3.0.0.min.js"></script>
+      <script src="src/js/prism.js"></script> 
+      <script src="src/js/app.js"></script>
+   </body>
+</html>
