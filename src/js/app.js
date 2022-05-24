@@ -46,6 +46,14 @@ let   articulosAgregados = [];
 
 // Eventos
 
+document.addEventListener('DOMContentLoaded', () => {
+
+    articulosAgregados = JSON.parse(localStorage.getItem('productos')) || [];
+
+    crearHtmlCarrito();
+
+});
+
 // Cuando se agrega una producto al carrito presionando añadir al carrito. 
 listaProductos.addEventListener('click', e => {
 
@@ -155,5 +163,15 @@ function crearHtmlCarrito(){
         `;
         contenedorCarrito.appendChild(row);
     });
+
+    sincronizarStorage();
 };
 
+/**
+ * Guarda los datos de los productos agregados al carrito en el LocalStorage. 
+ */
+function sincronizarStorage() {
+
+    localStorage.setItem('productos', JSON.stringify(articulosAgregados));
+    
+}
